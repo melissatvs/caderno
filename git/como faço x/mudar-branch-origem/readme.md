@@ -25,7 +25,7 @@ Vamos nomear as branchs para evitar confusão:
 
 Siga os passos:
 
-1. Crie uma branch a partir da :green_circle: *Branch-B* (chamaremos essa branch de :blue_circle: *Branch-D*)
+1. Crie uma branch a partir da :green_circle: *Branch-B* (chamaremos essa branch de :large_blue_circle:*Branch-D*)
   ```
   git checkout Branch-B
   git checkout -b Branch-D
@@ -48,7 +48,7 @@ Siga os passos:
 
 ![](./imgs/passo3.PNG)
 
-4. As alterações que estão salvas, mova para a :blue_circle: *Branch-D*. Alguns conflitos podem aparecer, resolva esses conflitos e salve suas alterações.
+4. As alterações que estão salvas, mova para a :large_blue_circle:*Branch-D*. Alguns conflitos podem aparecer, resolva esses conflitos e salve suas alterações.
   ```
   git checkout Branch-D
   git stash apply
