@@ -10,27 +10,29 @@ Anotações, na minha maneira de organizar as ideias.
 
 ### :black_small_square: [Rest](conceitos/arquitetura-software/rest/)
 
-## :computer: Controle de Versão
+## :computer: Langs e Código
 
-### :black_small_square: [Git](git/)
+### :black_small_square: Controle de Versão
 
-## :computer: Banco de Dados Relacional
+  * :black_small_square: [Git](git/)
 
-### :black_small_square: [SQL Server e T-SQL](sqlserver/)
+### :black_small_square: Banco de Dados Relacional
 
-### :black_small_square: [Oracle e PL/SQL](plsql/)
+  * :black_small_square: [SQL Server e T-SQL](sqlserver/)
 
-## :computer: Back-end
+  * :black_small_square: [Oracle e PL/SQL](plsql/)
 
-### :black_small_square: [C#](csharp/)
+### :black_small_square: Back-end
 
-### :black_small_square: [.NET](dotnet/)
+  * :black_small_square: [C#](csharp/)
 
-### :black_small_square: [Python](python/)
+  * :black_small_square: [.NET](dotnet/)
 
-## :computer: Front-end
+  * :black_small_square: [Python](python/)
 
-### :black_small_square: [React](react/)
+### :black_small_square: Front-end
+
+  * :black_small_square: [React](react/)
 
 ## :thinking: Outros Assuntos
 
