@@ -30,3 +30,6 @@ Anotações, na minha maneira de organizar as ideias.
 ## :thinking: Outros Assuntos
 
 ### :black_small_square: [Desenvolvedor e Testes](conceitos/desenvolvedor-teste/)
+
+### :black_small_square: [Dicas úteis para o Full-Stack capenga no front](uteis/front-end/)
+
