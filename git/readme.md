@@ -3,6 +3,7 @@
 ## :bulb: Dicas
 
 ### :black_small_square: [GitFichas](https://gitfichas.com/)
+### :black_small_square: Gerador de arquivo gitignore [gitignore.io](https://www.toptal.com/developers/gitignore)
 
 ## :straight_ruler: Padrões
 
