@@ -2,16 +2,22 @@
 
 Anotações, na minha maneira de organizar as ideias.
 
-## :computer: [Git](git/)
+## :computer: Controle de Versão
 
-### :thinking: [Como fazer?](git/como%20fa%C3%A7o%20x/)
+### :black_small_square: [Git](git/)
 
-## :computer: [C#](csharp/)
+## :computer: Banco de Dados Relacional
 
-## :computer: [.NET Core](dotnet/)
+### :black_small_square: [PL/SQL](plsql/)
 
-## :computer: [PL/SQL](plsql/)
+## :computer: Back-end
 
-## :computer: [Python](python/)
+### :black_small_square: [C#](csharp/)
 
-## :computer: [React](react/)
+### :black_small_square: [.NET Core](dotnet/)
+
+### :black_small_square: [Python](python/)
+
+## :computer: Front-end
+
+### :black_small_square: [React](react/)
