@@ -61,6 +61,10 @@ Siga os passos:
 
 ![](./imgs/passo4.PNG)
 
-5. A :purple_circle:*Branch-C* pode ser excluída:
+5. :purple_circle:*Branch-C* pode ser excluída:
+  ```
+  git branch –D Branch-C
+  ```
+
 
 ![](./imgs/passo5.PNG)
