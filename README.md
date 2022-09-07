@@ -14,25 +14,25 @@ Anotações, na minha maneira de organizar as ideias.
 
 ### :black_small_square: Controle de Versão
 
-  * :black_small_square: [Git](git/)
+  * [Git](git/)
 
 ### :black_small_square: Banco de Dados Relacional
 
-  * :black_small_square: [SQL Server e T-SQL](sqlserver/)
+  * [SQL Server e T-SQL](sqlserver/)
 
-  * :black_small_square: [Oracle e PL/SQL](plsql/)
+  * [Oracle e PL/SQL](plsql/)
 
 ### :black_small_square: Back-end
 
-  * :black_small_square: [C#](csharp/)
+  * [C#](csharp/)
 
-  * :black_small_square: [.NET](dotnet/)
+  * [.NET](dotnet/)
 
-  * :black_small_square: [Python](python/)
+  * [Python](python/)
 
 ### :black_small_square: Front-end
 
-  * :black_small_square: [React](react/)
+  * [React](react/)
 
 ## :thinking: Outros Assuntos
 
