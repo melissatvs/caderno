@@ -2,6 +2,10 @@
 
 Anotações, na minha maneira de organizar as ideias.
 
+## :books: Notas de Leituras
+
+* [Migrando sistemas monolíticos para microsserviços - Sam Newman](livros/migrando-sistemas-monoliticos-para-microsservicos/)
+
 ## :athletic_shoe: Ágil
 
   * [ ] Preciso anotar mais sobre minhas refs aqui
