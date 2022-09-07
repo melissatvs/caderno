@@ -2,8 +2,16 @@
 
 Anotações, na minha maneira de organizar as ideias.
 
-## :computer: Git
+## :computer: [Git](git/)
 
-### :thinking: Como fazer?
+### :thinking: [Como fazer?](git/como%20fa%C3%A7o%20x/)
 
-#### :black_small_square: [Como mudar a "branch origem" da minha "branch" atual?](./git/como%20fa%C3%A7o%20x/mudar-branch-origem/)
+## :computer: [C#](csharp/)
+
+## :computer: [.NET Core](dotnet/)
+
+## :computer: [PL/SQL](plsql/)
+
+## :computer: [Python](python/)
+
+## :computer: [React](react/)
