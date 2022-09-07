@@ -17,15 +17,15 @@ Resolvi então anotar em um caderno (de papel mesmo), a solução perfeita pra q
 
 Vamos nomear as branchs para evitar confusão:
 
-   * *Branch-A*: originou a sua branch
-   * *Branch-B*: branch que será a nova origem
-   * *Branch-C*: sua branch, criada a partir da *Branch-A*
+   * :red_circle: *Branch-A*: originou a sua branch
+   * :green_circle: *Branch-B*: branch que será a nova origem
+   * :purple_circle: *Branch-C*: sua branch, criada a partir da *Branch-A*
 
 ![](./imgs/situacao.PNG)
 
 Siga os passos:
 
-1. Crie uma branch a partir da *Branch-B* (chamaremos essa branch de *Branch-D*)
+1. Crie uma branch a partir da :green_circle: *Branch-B* (chamaremos essa branch de :blue_circle: *Branch-D*)
   ```
   git checkout Branch-B
   git checkout -b Branch-D
@@ -33,7 +33,7 @@ Siga os passos:
 
 ![](./imgs/passo1.PNG)
 
-2. Na *Branch-C*, volte para o último ponto (commit) sem suas alterações:
+2. Na :purple_circle: *Branch-C*, volte para o último ponto (commit) sem suas alterações:
   ```
   git checkout Branch-C
   git reset –-soft [commit-Id]
@@ -48,7 +48,7 @@ Siga os passos:
 
 ![](./imgs/passo3.PNG)
 
-4. As alterações que estão salvas, mova para a *Branch-D*. Alguns conflitos podem aparecer, resolva esses conflitos e salve suas alterações.
+4. As alterações que estão salvas, mova para a :blue_circle: *Branch-D*. Alguns conflitos podem aparecer, resolva esses conflitos e salve suas alterações.
   ```
   git checkout Branch-D
   git stash apply
@@ -61,6 +61,6 @@ Siga os passos:
 
 ![](./imgs/passo4.PNG)
 
-5. A *Branch-C* pode ser excluída:
+5. A :purple_circle: *Branch-C* pode ser excluída:
 
 ![](./imgs/passo5.PNG)
