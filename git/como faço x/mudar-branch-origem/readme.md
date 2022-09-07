@@ -25,7 +25,7 @@ Vamos nomear as branchs para evitar confusão:
 
 Siga os passos:
 
-1. Crie uma branch a partir da *Branch-A* (chamaremos essa branch de *Branch-D*)
+1. Crie uma branch a partir da *Branch-B* (chamaremos essa branch de *Branch-D*)
   ```
   git checkout Branch-B
   git checkout -b Branch-D
