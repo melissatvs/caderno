@@ -13,7 +13,9 @@ Anotações, na minha maneira de organizar as ideias.
 
 ## :computer: Banco de Dados Relacional
 
-### :black_small_square: [PL/SQL](plsql/)
+### :black_small_square: [SQL Server e T-SQL](sqlserver/)
+
+### :black_small_square: [Oracle e PL/SQL](plsql/)
 
 ## :computer: Back-end
 
