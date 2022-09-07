@@ -33,7 +33,7 @@ Siga os passos:
 
 ![](./imgs/passo1.PNG)
 
-2. Na Branch-C, volte para o último ponto (commit) sem suas alterações:
+2. Na *Branch-C*, volte para o último ponto (commit) sem suas alterações:
   ```
   git checkout Branch-C
   git reset –-soft [commit-Id]
