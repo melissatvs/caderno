@@ -2,6 +2,11 @@
 
 Anotações, na minha maneira de organizar as ideias.
 
+
+## :nerd_face: Arquitetura de Software
+
+### :black_small_square: [Rest](conceitos/arquitetura-software/rest/)
+
 ## :computer: Controle de Versão
 
 ### :black_small_square: [Git](git/)
