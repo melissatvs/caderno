@@ -2,6 +2,9 @@
 
 Anotações, na minha maneira de organizar as ideias.
 
+## :athletic_shoe: Ágil
+
+  - [ ] Preciso anotar mais sobre minhas refs aqui
 
 ## :nerd_face: Arquitetura de Software
 
