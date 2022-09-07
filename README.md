@@ -21,7 +21,7 @@ Anotações, na minha maneira de organizar as ideias.
 
 ### :black_small_square: [C#](csharp/)
 
-### :black_small_square: [.NET Core](dotnet/)
+### :black_small_square: [.NET](dotnet/)
 
 ### :black_small_square: [Python](python/)
 
