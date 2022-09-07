@@ -26,3 +26,7 @@ Anotações, na minha maneira de organizar as ideias.
 ## :computer: Front-end
 
 ### :black_small_square: [React](react/)
+
+## :thinking: Outros Assuntos
+
+### :black_small_square: [Desenvolvedor e Testes](conceitos/desenvolvedor-teste/)
