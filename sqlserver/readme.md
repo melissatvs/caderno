@@ -1,6 +1,6 @@
 # SQL Server
 
-## [T-SQL](tsql/)
+## [T-SQL - Comandos e Dicas](tsql/)
 
 ## Índices
 

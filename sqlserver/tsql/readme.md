@@ -1,14 +1,12 @@
-# T-SQL
+# T-SQL - Comandos e Dicas
 
-## Comandos e Dicas
-
-### Variáveis
+## Variáveis
 
 Usando o `DECLARE` você pode declarar variáveis e usá-las dentro do escopo.
 
 Para definir o valor de uma variável, pode ser feito na declaração, usando `SET` ou `SELECT`.
 
-#### Exemplos de declaração, inicialização e uso do `SET`
+### Exemplos de declaração, inicialização e uso do `SET`
 
 ```TSQL
 DECLARE
@@ -22,7 +20,7 @@ SET @Id = 100;
 SELECT @DataHora AS DataHora, @Id AS Id, @Nome AS Nome;
 ```
 
-#### Exemplo de definição de valor com `SELECT`
+### Exemplo de definição de valor com `SELECT`
 
 ```TSQL
 DECLARE @QuantidadeTabelas INT;
@@ -34,15 +32,15 @@ WHERE o.[type] = 'U'
 SELECT @QuantidadeTabelas;
 ```
 
-### Elementos de linguagem
+## Elementos de linguagem
 
-#### `GO` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/sql-server-utilities-statements-go?view=sql-server-ver15)
+### `GO` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/sql-server-utilities-statements-go?view=sql-server-ver15)
 
 Define o fim de um lote de comandos. As instruções entre dois comandos `GO` são do mesmo escopo, assim as variáveis declaradas não ficam acessíveis após um comando `GO`.
 
 Pode ser usado um inteiro junto do `GO`, o valor informado é o número de vezes que será executado o lote de comandos até o `GO` anterior.
 
-##### Exemplos 
+#### Exemplos 
 
 
 No exemplo abaixo, o primeiro select será executado duas vezes, e o segundo select uma vez, mostrando 3 resultados.
@@ -76,11 +74,11 @@ SELECT @Id; -- erro
 GO
 ```
 
-#### `USE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/use-transact-sql?view=sql-server-ver15)
+### `USE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/use-transact-sql?view=sql-server-ver15)
 
 Define o banco que estará conectado.
 
-##### Exemplo 
+#### Exemplo 
 
 Nesse exemplo a conexão é mudada de base e os selects são feitos em bases diferentes sem a necessidade de especificar a base junto do nome da tabela.
 
@@ -102,7 +100,7 @@ WHERE o.[type] = 'U'
 GO
 ```
 
-#### `PRINT` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/print-transact-sql?view=sql-server-ver15)
+### `PRINT` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/print-transact-sql?view=sql-server-ver15)
 
 Mostra uma mensagem em modo texto, pode ser útil para mostrar mensagens ao invés de resultados em modo de grade.
 
@@ -122,7 +120,7 @@ PRINT @Id;
 PRINT 'Id: ' + CAST(@Id AS VARCHAR);
 ```
 
-#### `IF..ELSE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/if-else-transact-sql?view=sql-server-ver15)
+### `IF..ELSE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/if-else-transact-sql?view=sql-server-ver15)
 
 Para definir o início e fim do bloco usar o par `BEGIN..END`.
 
@@ -144,13 +142,13 @@ BEGIN
 END
 ```
 
-#### `WHILE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/while-transact-sql?view=sql-server-ver15)
+### `WHILE` [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/while-transact-sql?view=sql-server-ver15)
 
 Funciona como nas demais linguagens, os delimitadores de início e fim do bloco são literais como no `IF` (`BEGIN..END`).
 
 * [ ] Pensar em exemplo
 
-#### Cursor [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/cursors-transact-sql?view=sql-server-ver15)
+### Cursor [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/cursors-transact-sql?view=sql-server-ver15)
 
 > :warning: **Máxima: Nunca use cursor**
 >
@@ -219,9 +217,9 @@ Para montar uma estrutura básica, de um cursor que percorra linha-a-linha, voc�
 
 * [ ] Pensar em exemplo
 
-### Metadados
+## Metadados
 
-#### Identity [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/ident-current-transact-sql?view=sql-server-ver15)
+### Identity [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/ident-current-transact-sql?view=sql-server-ver15)
 
 Para saber qual valor foi gerado por um campo *Identity*, existem as formas abaixo (cada uma com suas particularidades):
 
@@ -237,11 +235,11 @@ Se tabelas ou campos são novos, essa preocupação pode não existir.
 
 * [ ] Pensar em exemplo
 
-#### DB_ID [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/db-id-transact-sql?view=sql-server-ver15)
+### DB_ID [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/db-id-transact-sql?view=sql-server-ver15)
 
 Passando no nome da base de dados é retornado o id, caso não exista retorna NULL.
 
-##### Exemplo
+#### Exemplo
 
 ```TSQL
 DECLARE
@@ -257,11 +255,11 @@ BEGIN
 END;
 ```
 
-#### OBJECT_ID [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/object-id-transact-sql?view=sql-server-ver15)
+### OBJECT_ID [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/object-id-transact-sql?view=sql-server-ver15)
 
 Passando o nome e o tipo do objeto é retornado o id, caso não exista retorna NULL.
 
-##### Exemplo
+#### Exemplo
 
 ```TSQL
 DECLARE
@@ -277,7 +275,7 @@ BEGIN
 END;
 ```
 
-##### Tipos
+#### Tipos
 
 Tipo | Descrição
 -----|:------------------------------------------------ 
@@ -295,13 +293,13 @@ TR   | Trigger*
 
 *SQL Server 2012 ou superior
 
-#### COLUMNPROPERTY [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/columnproperty-transact-sql?view=sql-server-ver15)
+### COLUMNPROPERTY [:mag:](https://docs.microsoft.com/pt-br/sql/t-sql/functions/columnproperty-transact-sql?view=sql-server-ver15)
 
 Informando Id da tabela, nome da coluna e nome da propriedade, é retornado o valor da propriedade.
 
 Em scripts pode ser útil a combinação com `OBJECT_ID` para verificar se uma coluna existe, como no exemplo a seguir.
 
-##### Exemplo
+#### Exemplo
 
 ```TSQL
 DECLARE
