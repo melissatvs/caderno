@@ -157,12 +157,11 @@ Funciona como nas demais linguagens, os delimitadores de início e fim do bloco 
 > Sim, existem extremistas que te falarão para nunca usar cursor!
 > 
 > Eles tem parcela de razão, pois na maioria dos cenários um WHILE pode te atender, ou consultas otimizadas (que explorem bem a teoria de conjuntos, dentro o SQL Server).
+>  E o ponto crucial dessa posição é que o Cursor é muito caro em termos de processamento, realmente o uso dele deve ser em último caso.
 >
-> Mas o CURSOR não deixa de existir quando ele não é usado, ou quando o nome dele não é citado. O mais importante é: Conheça o **maior número de objetos e ferramentas disponibilizadas pelo SQL Server e entenda quando e como usar**
+> Mas o cursor não deixa de existir quando ele não é usado, ou quando o nome dele não é citado. Pode existir algum cenário em que um cursor já exista! E se vc precisar transferir ele pra outra forma de código ou dar manutenção? 
 >
-> Pode existir algum cenário em que um cursor já exista! E se vc precisar transferir ele pra outra forma de código ou dar manutenção? 
->
-> Por isso, conheça as possibilidades!
+> O mais importante é: Conheça o *maior número de objetos e ferramentas disponibilizadas pelo SQL Server e entenda quando e como usar*
 
 Permite posicionar em um registro específico de uma consulta, sendo possível processar uma linha por vez.
 
