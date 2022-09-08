@@ -1,5 +1,7 @@
 # SQL Server
 
+## [T-SQL](tsql/)
+
 ## Índices
 
 [Entendendo o funcionamento dos índices no SQL Server](https://www.dirceuresende.com/blog/entendendo-o-funcionamento-dos-indices-no-sql-server/)
